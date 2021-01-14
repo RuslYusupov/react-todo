@@ -1,0 +1,52 @@
+.todo-form {
+    padding: 0 10px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    width: 520px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 3rem;
+    color: coral;
+    text-align: center;
+}
+
+.todo-form form {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.todo-form input {
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid coral
+}
+
+.todo-form button {
+    margin: 20px 0 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: coral;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+@media (max-width: 641px) {
+
+    .todo-form {
+      width: 100%;
+    }
+  
+}
+
+/*
+https://github.com/floraCodes/first-react-todo/blob/master/src/components/Todo.css
+https://first-react-todo.now.sh/
+*/

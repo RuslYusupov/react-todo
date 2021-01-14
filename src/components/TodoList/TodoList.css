@@ -1,0 +1,16 @@
+.todo-list {
+    margin-top: 16px;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    width: 520px;
+}
+
+
+@media (max-width: 641px) {
+
+    .todo-list {
+      width: 100%;
+    }
+  
+}
