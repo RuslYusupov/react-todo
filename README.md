@@ -1,2 +1,2 @@
-# Shopping List
+# Todo
 Simple React Todo App to practice React
